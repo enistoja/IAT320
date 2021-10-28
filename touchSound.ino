@@ -15,7 +15,7 @@
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 const int buttonPin = 10; //input digital pin
-const int ledPin = 6;
+const int ledPin = LED_PIN;
 const int buzzPin = 9;
 int buttonState = 0; //button status
 int brightness = 255;
